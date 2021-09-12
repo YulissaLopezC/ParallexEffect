@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Tajawal:wght@300&display=swap');
+
+body {
+	height: 100%;
+	margin: 0;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #666;
+	line-height: 1.8em;
+}
+
+
+section{
+	text-align: center;
+	padding: 50px 80px;
+}
+
+a{
+	text-decoration: none;
+}
+
+nav{
+	position: fixed;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	background-color: #111;
+	opacity: 0.70;
+	z-index: 10;
+	
+}
+
+ul{
+	list-style: none;
+}
+
+footer{
+display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	background-color: #111;
+	opacity: 0.70;
+	z-index: 10;
+}
+
+footer p{
+	padding-right: 25px;
+}
+
+.nav-list{
+	display: flex;
+	margin-right: 20px;
+}
+
+.nav-list a{
+	padding: 1.5em;
+	color: #fff;
+	font-size: 27px;
+	font-family: 'Darker Grotesque';
+	
+}
+
+
+
+.parallax1, .parallax2, .parallax3{
+	
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	opacity: 0.70;
+	
+}
+
+
+.parallax1{
+	min-height: 100vh;
+	background-image: url('https://pix10.agoda.net/geo/city/16808/1_16808_02.jpg?s=1920x822');
+	
+}
+
+.parallax2{
+	min-height: 70vh;
+	background-image: url('https://www.gotokyo.org/es/plan/tokyo-outline/images/main.jpg');
+	
+}
+
+.parallax3{
+	min-height: 70vh;
+	background-image: url('https://res.cloudinary.com/thetripguru/image/upload/v1568172117/Seoul_1_nebg6a.jpg');
+	
+}
+
+
+.ptext{
+	position: absolute;
+	text-align: center;
+	top:50%;
+	width: 100%;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	
+}
+
+
+
+.ptext .titlepage{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+
+
+.section-light{
+	background-color: #f4f4f4;
+	color: #666;
+}
+
+
+.section-dark{
+	background-color: #282e34;
+	color: #ddd;
+}
+
+
