@@ -1,2 +1,0 @@
-# ParallexEffect
-CSS ParalexEffect
